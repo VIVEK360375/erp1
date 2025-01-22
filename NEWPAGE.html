@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body style="background-color:rgb(135, 184, 158)">
+    <form action="backend.php">
+        <h1> Your Information :</h1>
+
+        <div class="first">
+            <input placeholder="Name" type="text" name="myName">
+        </div>
+        <br>
+        Role:<input type="text" name="myRole">
+        <div>
+            <br>
+            Email <input type="email" name="myid">
+        </div>
+        <div>
+            <div>
+                <br>
+                Date: <input type="date" name="my Date">
+            </div>
+            <div>
+                <br>
+                Bonus <input type="number" name="my bonus">
+            </div>
+            <div>
+                <br>
+                are you eligible: <input type="checkbox" name="myeligibility">
+            </div>
+            <br>
+            <form>
+                Gender: male <input type="radio" name="mygender">
+                Female <input type="radio" name="mygender">
+                Other <input type="radio" name="mygender">
+            </form>
+            <br>
+            <div>
+                write about yourself:<textarea name="mytext" cols="30" rows="10"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="car">car</label>
+                <select name="mycar" id="car">
+                    <option value="ind">indica</option>
+                    <option value="swift" selected>swift</option>
+                </select>
+                </select>
+            </div>
+        </div>
+        <br>
+        <button>Submit</button>
+        <button>Reset</button>
+    </form>
+</body>
+
+</html>
